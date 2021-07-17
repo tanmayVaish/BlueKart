@@ -1,25 +1,103 @@
-.navbar{
-
-}
 
 .navbarOne{
-    position: relative;
+    position: sticky;
+    display: flex;
+    background-color: #131921;
+    padding: 0.4vh 2vh 1.5vh 0vh;
+    font-size: 0.7rem;
+}
+
+.logo {
+    object-fit: contain;
+    margin: 1.6vh 2vh 0 2vh;
+    width: 10vh;
+}
+.locationBar{
+    display: flex;
+    margin-top: 1vh;
+}
+.locationBar span{
+    width: 16vh;
+}
+
+.locationBar .location span{
+    font-size: 0.8rem !important;
+    font-weight: 700;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar{
+    display: flex;
+    margin-top: 1vh;
+    height: 3.9vh;
+    width: 100%;
+}
+
+.searchBar > input{
+    padding: 0.6vh;
+    border: none;
+    width: 100%;
+}
+
+.searchBar  .searchBtn{
+    background-color: orange;
+    padding: 0.4vh;
+    border-bottom-right-radius: 0.4vh;
+    border-top-right-radius: 0.3vh;
+}
+
+.searchBar .searchList{
+    font-size: 1.2vh;
+    color: #333333;
+    width: 3vw;
+    padding: 0.6vh 0 0.6vh 0.6vh;
+    border-color: #333;
+    border-top-left-radius: 0.4vh;
+    border-bottom-left-radius: 0.4vh;
+}
+
+
+.tabs{
     display: flex;
     justify-content: space-evenly;
 }
 
-.searchBar > input{
-    margin: 1vh;
-    width: 30vw;
-    height: 3.5vh;
+.tabOne , .tabTwo{
+    margin: 1vh 10px 0 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.tabs{
-    position: relative;
+.tabThree{
+    margin: 1.6vh 0 0 0;
+    color: white;
     display: flex;
-    text-indent: 2vh;
+    flex-direction: row;
+    justify-content: center;
 }
-.logo{
-    height: 5vh;
-    width: 2.5vw;
+
+.tabOne span , .tabTwo span{
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 103px;
+}
+
+.tabThree span{
+    margin-top: 0.8vh;
+}
+
+.tabThree .cartIcon{
+    font-size: 1.5rem;
+}
+.searchBar .searchBtn .searchIcon {
+    font-size: 1.5rem;
+}
+.locationBar .locationIcon{
+    font-size: 1.5rem;
 }
