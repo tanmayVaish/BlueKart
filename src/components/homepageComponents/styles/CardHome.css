@@ -1,0 +1,20 @@
+.card{
+    padding: 1.5vh;
+    height: 500px;
+    width: 350px;
+    color: black;
+    background-color: white;
+    margin: 0 10px 0 10px;
+    transform: translate(0,-25%);
+    margin: 10px;
+}
+
+.imageContainer{
+    margin: 1vh 0 1vh 0;
+}
+
+.image{
+    width: 150px;
+    margin: 3px;
+}
+
