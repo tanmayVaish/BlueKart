@@ -17,7 +17,7 @@
     margin-top: 1vh;
 }
 .locationBar span{
-    width: 16vh;
+    width: 13vh;
 }
 
 .locationBar .location span{
@@ -50,6 +50,8 @@
     border-top-right-radius: 0.3vh;
 }
 
+
+
 .searchBar .searchList{
     font-size: 1.2vh;
     color: #333333;
@@ -59,7 +61,6 @@
     border-top-left-radius: 0.4vh;
     border-bottom-left-radius: 0.4vh;
 }
-
 
 .tabs{
     display: flex;
@@ -75,21 +76,35 @@
 }
 
 .tabThree{
-    margin: 1.6vh 0 0 0;
+    margin: 2vh 0 0 0;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.tabOne span , .tabTwo span{
+.tabOne span{
+
     font-size: 0.8rem;
     font-weight: 700;
     width: 103px;
 }
 
+.tabTwo span{
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 60px;
+}
 .tabThree span{
-    margin-top: 0.8vh;
+    font-weight: 700;
+    margin-top: 1vh;
+}
+.tabThree .counter {
+    margin-top: 0.5vh;
+    color: orange;
+    margin-left: 0.5vh;
+    font-size: 15px;
+    font-weight: 750;
 }
 
 .tabThree .cartIcon{

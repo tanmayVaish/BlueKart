@@ -4,9 +4,9 @@ import SearchIcon from '@material-ui/icons/Search';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
-import './styles/Header.css'
+import './styles/Navbar.css'
 
-const Header = () => {
+const Navbar = () => {
 
     return (
         <div className={'navbar'}>
@@ -16,10 +16,12 @@ const Header = () => {
                     <img src={logo} className={'logo'}/>
                 </div>
 
-                {/*<div className={'locationBar'}>*/}
-                {/*    <LocationOnIcon className={'locationIcon'}/>*/}
-                {/*    <div className={'location'}>Hello,<span>Select Your Address</span></div>*/}
-                {/*</div>*/}
+
+                <div className={'locationBar'}>
+                    <LocationOnIcon className={'locationIcon'}/>
+                    <div className={'location'}>Hello,<span>Select Your Address</span></div>
+                </div>
+
 
                 <div className={'searchBar'}>
                         <select className={'searchList'}>
@@ -44,6 +46,7 @@ const Header = () => {
                     <div className={'tabThree'}>
                         <ShoppingCartIcon className={'cartIcon'}/>
                         <span>Cart</span>
+                        <div className={'counter'}>0</div>
                     </div>
                 </div>
 
@@ -58,4 +61,4 @@ const Header = () => {
 
 }
 
-export default Header;
+export default Navbar;

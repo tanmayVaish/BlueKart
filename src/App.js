@@ -1,15 +1,15 @@
 import './App.css';
 
-import Header from "./components/Header";
-import Section from "./components/Section";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Section/>
+        <Navbar/>
+        <Home/>
         <Footer/>
     </div>
   );

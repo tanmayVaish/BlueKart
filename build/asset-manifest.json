@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.826932ba.chunk.css",
+    "main.js": "./static/js/main.f183288a.chunk.js",
+    "main.js.map": "./static/js/main.f183288a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.9734f669.js",
+    "runtime-main.js.map": "./static/js/runtime-main.9734f669.js.map",
+    "static/js/2.e486199c.chunk.js": "./static/js/2.e486199c.chunk.js",
+    "static/js/2.e486199c.chunk.js.map": "./static/js/2.e486199c.chunk.js.map",
+    "static/js/3.50ccef34.chunk.js": "./static/js/3.50ccef34.chunk.js",
+    "static/js/3.50ccef34.chunk.js.map": "./static/js/3.50ccef34.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.826932ba.chunk.css.map": "./static/css/main.826932ba.chunk.css.map",
+    "static/js/2.e486199c.chunk.js.LICENSE.txt": "./static/js/2.e486199c.chunk.js.LICENSE.txt",
+    "static/media/amazon_PNG11.1c9be0b2.png": "./static/media/amazon_PNG11.1c9be0b2.png",
+    "static/media/homeAshish.f3553818.jpg": "./static/media/homeAshish.f3553818.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9734f669.js",
+    "static/js/2.e486199c.chunk.js",
+    "static/css/main.826932ba.chunk.css",
+    "static/js/main.f183288a.chunk.js"
+  ]
+}
